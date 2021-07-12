@@ -19,6 +19,12 @@ public class integerAnagramLogic
     {
     	int ascii_first=0;
     	int ascii_second=0;
+        
+        //Added logic for (74,128) test cases-Edge test case
+        if((Math.floor(Math.log10(a) + 1))!=Math.floor(Math.log10(b) + 1))
+    	{
+    		return false;
+    	}
     	
     	
     	
